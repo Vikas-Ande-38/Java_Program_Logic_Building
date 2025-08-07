@@ -56,4 +56,38 @@ All examples are located in the `src/` directory.
 
 Day two 
 
+# 🧠 Java Conditional Logic Project
+
+This project demonstrates the use of **`if-else`, `else-if`, and `switch-case`** statements in Java using **real-world decision-making scenarios**.
+
+---
+
+## 📁 Project Structure
+
+- `RealLifeScenarios.java`: Contains methods for problems using **`if-else-if`** conditions.
+- `SwitchCaseScenarios.java`: Contains methods for problems using **`switch-case`** with multiple logic conditions.
+
+---
+
+## ✅ Concepts Covered
+
+### 🔹 `if-else-if` Scenarios
+
+1. **Passport and Visa Eligibility**  
+2. **University Admission Based on Percentage, Sports, and Income**  
+3. **Shopping Discount Calculation**  
+4. **Fitness App Recommendation Based on BMI and Age**  
+5. **Campus Placement Eligibility**
+
+### 🔸 `switch-case` Scenarios
+
+1. **Banking Transactions: Withdraw, Deposit, Transfer**  
+2. **E-commerce Return Policy**  
+3. **College Course Selection Based on Semester & Department**  
+4. **Food Delivery App Modes: Pickup, Delivery, Dine-in**  
+5. **Online Test Navigation: MCQ, Code, Essay**
+
+---
+
+
 
