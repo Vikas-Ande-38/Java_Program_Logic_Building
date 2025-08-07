@@ -54,10 +54,6 @@ Data types define the **type of data** a variable can hold, such as integers, de
 
 All examples are located in the `src/` directory.
 
-### ✔ IntegerTypes.java
+Day two 
 
-```java
-byte a = 100;
-short b = 30000;
-int c = 100000;
-long d = 123456789L;
+
