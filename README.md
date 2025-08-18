@@ -127,4 +127,60 @@ This folder contains 10 simple Java programs for basic calculations and problem 
 10. **AverageOfMarks.java**
     - Calculates the average marks of 3 subjects (Maths, Physics, Chemistry)
 
+DAY FOUR 
+
+String Handling Java Programs
+
+This 5 Java programs focusing on string manipulation.
+
+## Programs List
+
+1. **ReverseString.java**
+   - Reverses a string without using library functions.
+
+2. **PalindromeCheck.java**
+   - Checks if a string is a palindrome (case insensitive).
+
+3. **CountVowelsConsonants.java**
+   - Counts the number of vowels and consonants in a string.
+
+4. **AnagramCheck.java**
+   - Determines if two strings are anagrams of each other.
+
+5. **RemoveDuplicates.java**
+   - Removes all duplicate characters from a string.
+
+DAY FIVE 
+
+# 📅 Day 5 – Java Practice
+
+This 6 Java programs focused on **string manipulation, patterns, and logic building** without using arrays (except minimal string splitting).  
+
+---
+
+## ✅ Tasks Covered
+
+1. **ThirdRanker.java**  
+   - Finds the **third highest marks** among 4 students.  
+   - Uses string to hold marks, then manual logic to rank.  
+
+2. **PrimeNumbers.java**  
+   - Prints all prime numbers between **1 and 100**.  
+   - Uses string concatenation to build the list.  
+
+3. **PalindromeNumber.java**  
+   - Checks whether a given **number is palindrome**.  
+   - Reverses the string manually without using library functions.  
+
+4. **StarRectangle.java**  
+   - Prints a **4x5 star rectangle pattern**.  
+
+5. **NumberTriangle.java**  
+   - Prints a **number pyramid** from 1 to 15.  
+
+6. **TrianglePattern.java**  
+   - Prints a **triangle pattern** with `-` and `*` as shown.  
+
+---
+
 
