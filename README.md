@@ -1,6 +1,6 @@
 # Assignments-In-Java-Program
 Assignments 
-Day one
+DAY ONE
 # Java Data Types - Notes and Examples
 
 This repository contains basic notes and sample Java programs to demonstrate the use of **data types** in Java programming. 
@@ -54,7 +54,7 @@ Data types define the **type of data** a variable can hold, such as integers, de
 
 All examples are located in the `src/` directory.
 
-Day two 
+DAY TWO 
 
 # 🧠 Java Conditional Logic Project
 
@@ -88,6 +88,43 @@ This project demonstrates the use of **`if-else`, `else-if`, and `switch-case`**
 5. **Online Test Navigation: MCQ, Code, Essay**
 
 ---
+DAY THREE
 
+Fundamental Java Programs
+-> Title :- Java Basics Exercises
+
+This folder contains 10 simple Java programs for basic calculations and problem solving.
+
+## Programs List
+
+1. **AreaOfSquare.java**
+   - Calculates the area of a square using formula: area = side × side
+
+2. **AreaOfRectangle.java**
+   - Calculates the area of a rectangle using formula: area = length × breadth
+
+3. **AreaOfTriangle.java**
+   - Calculates the area of a triangle using formula: area = 0.5 × base × height
+
+4. **PerimeterOfSquare.java**
+   - Calculates the perimeter of a square using formula: perimeter = 4 × side
+
+5. **PerimeterOfRectangle.java**
+   - Calculates the perimeter of a rectangle using formula: perimeter = 2 × (length + breadth)
+
+6. **PerimeterOfTriangle.java**
+   - Calculates the perimeter of a triangle using formula: perimeter = side1 + side2 + side3
+
+7. **BreakAmount.java**
+   - Breaks down an amount into 1000s, 500s, and remaining balance
+
+8. **ConvertSeconds.java**
+   - Converts total seconds into hours, minutes, and seconds
+
+9. **SumOfMarks.java**
+   - Calculates the total marks in 3 subjects (Maths, Physics, Chemistry)
+
+10. **AverageOfMarks.java**
+    - Calculates the average marks of 3 subjects (Maths, Physics, Chemistry)
 
 
