@@ -150,7 +150,7 @@ This 5 Java programs focusing on string manipulation.
 
  **Day 4 - String Handling Exercises**
 
-# 📅 Day 5 – Java Practice
+# 📅 Day FIVE  – Java Practice
 
 This 6 Java programs focused on **string manipulation, patterns, and logic building** without using arrays (except minimal string splitting).  
 
