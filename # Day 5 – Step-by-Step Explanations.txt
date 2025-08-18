@@ -1,0 +1,131 @@
+# Day 5 – Step-by-Step Explanations
+
+This document explains each Day 5 program **step by step**. Each section corresponds to a Java file name.
+
+---
+
+## 1) ThirdRanker.java — Find the 3rd ranker among 4 students (strings-based)
+**Goal:** Determine the 3rd highest marks without using arrays for sorting.
+
+**Steps:**
+1. Keep each student's marks as a **string** (e.g., "90", "85", "95", "88").  
+2. Convert each to **int** using `Integer.parseInt(...)`.  
+3. Find **max1** (highest) by comparing all four numbers manually.  
+4. Find **max2** (second highest) by scanning again but **ignoring the value equal to max1**.  
+5. Find **max3** (third highest) by scanning again but **ignoring values equal to max1 and max2**.  
+6. Print **max3** as the third ranker's marks.
+
+**Dry run (90, 85, 95, 88):**
+- max1 = 95  
+- max2 = 90  
+- max3 = 88 → **Third ranker = 88**
+
+---
+
+## 2) PrimeNumbers.java — Print prime numbers from 1 to 100
+**Goal:** Generate all primes in [2..100] and collect them in a single string.
+
+**Steps:**
+1. Initialize an empty string `primes = ""` to accumulate prime numbers.  
+2. Loop `num` from **2 to 100** (1 is not prime).  
+3. Assume `isPrime = true`.  
+4. Check divisibility by any `i` from **2 to num/2** (or up to `sqrt(num)` for efficiency).  
+   - If `num % i == 0`, set `isPrime = false` and `break`.  
+5. After inner loop, if `isPrime` is still true, append `num + " "` to `primes`.  
+6. Print `primes` at the end.
+
+**Mini dry run:**  
+- `num = 10` → divisible by 2 → not prime.  
+- `num = 11` → no divisor in 2..5 → prime → added to string.
+
+---
+
+## 3) PalindromeNumber.java — Check if a number is palindrome (string method)
+**Goal:** Treat the input number as a string and compare it to its reverse.
+
+**Steps:**
+1. Read/keep a number as a **string**, e.g., "121".  
+2. Build `rev` by iterating from the **last index to the first**, appending each character.  
+3. If `rev.equals(num)` → it’s a palindrome; else → not palindrome.  
+4. Works for any numeric string (e.g., "12321" is palindrome, "120" is not).
+
+**Mini dry run:**  
+- `num = "121"` → `rev = "121"` → equal → palindrome.  
+- `num = "123"` → `rev = "321"` → not equal → not palindrome.
+
+---
+
+
+## 5) StarRectangle.java — Print a 4×5 star rectangle
+**Goal:** Print 4 rows, each containing 5 stars separated by spaces.
+
+**Steps:**
+1. Use an **outer loop** for rows: run 4 times.  
+2. Use an **inner loop** for columns: print `"* "` exactly 5 times.  
+3. After inner loop, call `System.out.println();` to move to the next row.
+
+**Output shape:**
+```
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+```
+
+---
+
+## 6) NumberTriangle.java — Print incremental number triangle
+**Goal:** Print numbers from 1 to 15 in a triangle of 5 rows.
+
+**Steps:**
+1. Start with `int num = 1;`.  
+2. Outer loop `i = 1..5` controls the **row number**.  
+3. Inner loop prints **exactly `i` numbers** in row `i`.  
+4. Each time you print a number, do `num++`.  
+5. After inner loop, print a newline to move to the next row.
+
+**Output shape:**
+```
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+```
+
+---
+
+## 7) TrianglePattern.java — Print the upper left-right triangle (with '-' and '*')
+**Goal:** For `n = 5`, build each line from three parts: left `-`, middle `*`, right `-`.
+
+**Steps (0-based row index `i` from 0 to 4):**
+1. **Left dashes:** print `n - i - 1` times `"- "`.  
+2. **Stars:** print `2 * i + 1` times `"* "`.  
+3. **Right dashes:** again `n - i - 1` times `"- "`.  
+4. Print newline.  
+5. Repeat for next row until `i = 4`.
+
+**Row-by-row counts (n = 5):**
+- i=0 → left 4, stars 1, right 4  
+- i=1 → left 3, stars 3, right 3  
+- i=2 → left 2, stars 5, right 2  
+- i=3 → left 1, stars 7, right 1  
+- i=4 → left 0, stars 9, right 0
+
+**Output shape:**
+```
+- - - - * - - - - 
+- - - * * * - - - 
+- - * * * * * - - 
+- * * * * * * * - 
+* * * * * * * * * 
+```
+
+> Note: Each symbol is printed with a trailing space for alignment; exact spacing may vary based on your console font.
+
+---
+
+### Run Tips
+- Compile: `javac FileName.java`  
+- Run: `java FileName`  
+- Make sure the class name matches the file name exactly.
